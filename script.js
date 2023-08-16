@@ -2,6 +2,8 @@ let changeState = document.body.querySelector('#changeState')
 let copyClip= document.body.querySelector('#copyClip')
 let resetBtn= document.body.querySelector('#resetBtn')
 let dibba= document.body.querySelector('.dibba')
+let lower= document.body.querySelector('#lower')
+let upper= document.body.querySelector('#upper')
 
 changeState.addEventListener('click', function() {
     let randomInteger;
@@ -23,4 +25,12 @@ copyClip.addEventListener('click', function() {
 
 resetBtn.addEventListener('click', function() {
     dibba.value = '';
+})
+
+lower.addEventListener('click', function() {
+    dibba.value = dibba.value.toLowerCase();
+})
+
+upper.addEventListener('click', function() {
+    dibba.value = dibba.value.toUpperCase();
 })
