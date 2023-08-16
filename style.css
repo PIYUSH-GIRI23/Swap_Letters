@@ -1,0 +1,28 @@
+body{
+    background-color: #202020;  
+}
+.navbar{
+    background-color: #1E1E1E !important;
+}
+.navbar-brand, .nav-link{
+    color:wheat !important;
+}
+.navbar-toggler{
+    background-color:white !important;
+    border:2px solid white;
+    color:white;
+}
+.dibba{
+    height:24vh;
+    border-radius: 20px;
+    width:80vw;
+    resize: none;
+    border: 2px solid rgba(255, 255, 255, 0.6);
+    box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.6) , 0 0 0 4px rgba(255, 255, 255, 0.6) ;
+    overflow:hidden
+}
+.dibba:focus {
+    border-color: transparent;
+    outline: none;
+}
+
